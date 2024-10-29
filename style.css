@@ -1,0 +1,112 @@
+/* Colors and fonts*/
+
+body {
+	background-color: rgb(240,240,240);
+	color: rgb(70,70,0);
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: "Inter", sans-serif;
+
+}
+h1 {
+	font-size: 40px;
+	color: #a11d2b;
+	font-weight:900;
+}
+h2 {
+	font-size: 20px;
+	color: #a11d2b;
+	font-weight: 250;
+}
+a {
+	text-decoration: none;
+	color: #4556F1;
+	font-family: "Roboto Condensed", sans-serif;
+	transition:color 0.3s ease;
+}
+
+a:hover {
+	color: #9966FF;
+	text-decoration:none;
+}
+
+
+
+
+/* Custon design using classes */
+
+.container {
+	width: 800px;
+	margin: 10px auto;
+}
+ 
+
+/*changes according to device*/
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 465px;
+	}
+}
+
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-blue {
+	background-color: #4284F3;
+	color: white;
+	padding: 10px 15px;
+	box-shadow: 4px 7px 20px rgba(0,0,0,0.1);
+	border-radius: 3px;
+}
+
+.btn-blue:hover {
+	background-color: #9966FF;
+	color: white;
+}
+
+/* design for social media box*/
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 12px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #4284F3;
+}
+
+.list-inline i:hover {
+	color: #9966FF;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
